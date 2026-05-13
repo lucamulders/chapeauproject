@@ -33,3 +33,4 @@ C:\Users\lucam\Documents\GitHub\ChapeauProject\ChapeauProject\ChapeauProject\obj
 C:\Users\lucam\Documents\GitHub\ChapeauProject\ChapeauProject\ChapeauProject\obj\Debug\net8.0\ChapeauProject.pdb
 C:\Users\lucam\Documents\GitHub\ChapeauProject\ChapeauProject\ChapeauProject\obj\Debug\net8.0\ChapeauProject.genruntimeconfig.cache
 C:\Users\lucam\Documents\GitHub\ChapeauProject\ChapeauProject\ChapeauProject\obj\Debug\net8.0\ref\ChapeauProject.dll
+C:\Users\lucam\Documents\GitHub\ChapeauProject\ChapeauProject\ChapeauProject\obj\Debug\net8.0\ChapeauProject.csproj.AssemblyReference.cache

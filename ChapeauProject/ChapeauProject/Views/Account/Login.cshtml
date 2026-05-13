@@ -1,0 +1,24 @@
+﻿@model ChapeauProject.Models.LoginModel
+
+@{
+    if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-danger" role="alert">@ViewBag.ErrorMessage</div>
+    }
+}
+
+<h4>Login</h4>
+
+<form action="/Account/Login" method="POST">
+    <div class="form-group py-2">
+        <label for="StaffID">Staff ID:</label>
+        <input type="text" id="StaffID" name="StaffID" class="form-control" required value="@Model?.StaffID" />
+    </div>
+
+    <div class="form-group py-2">
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password" class="form-control" required value="@Model?.Password" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
