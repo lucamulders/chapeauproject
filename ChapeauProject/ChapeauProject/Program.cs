@@ -9,6 +9,8 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddSingleton<IStaffRepository, StaffRepository>();
 builder.Services.AddSingleton<IStaffService, StaffService>();
+builder.Services.AddSingleton<ITableRepository, TableRepository>();
+builder.Services.AddSingleton<ITableService, TableService>();
 
 // enabling cookie-based authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

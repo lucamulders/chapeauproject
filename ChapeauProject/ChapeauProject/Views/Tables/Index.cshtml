@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ChapeauProject.Models.Table>
+
+@{
+    ViewData["Title"] = "Tables";
+    int free = Model.Count(t => !t.IsOccupied);
+    int occupied = Model.Count(t => t.IsOccupied);
+}
+
+<div style="display:flex; gap:12px; margin-bottom:1.5rem;">
+    <div class="stat-card"><div class="stat-label">Total</div><div class="stat-value">@Model.Count()</div></div>
+    <div class="stat-card"><div class="stat-label">Free</div><div class="stat-value" style="color:#3B6D11">@free</div></div>
+    <div class="stat-card"><div class="stat-label">Occupied</div><div class="stat-value" style="color:#A32D2D">@occupied</div></div>
+</div>
+
+<div class="tables-grid">
+    @foreach (var table in Model.OrderBy(t => t.TableNumber))
+    {
+        <form asp-action="ToggleOccupied" asp-controller="Tables" method="post">
+            <input type="hidden" name="tableNumber" value="@table.TableNumber" />
+            <button type="submit" class="table-card" style="border:none; cursor:pointer; width:100%; background:none;">
+                <div class="table-shape @(table.Seats <= 2 ? "round" : table.Seats <= 4 ? "rect" : "large") @(table.IsOccupied ? "occupied" : "free")">
+                    <i class="ti ti-armchair"></i>
+                </div>
+                <div class="table-num">Table @table.TableNumber</div>
+                <div class="table-seats">@table.Seats seats</div>
+                <span class="status-badge @(table.IsOccupied ? "badge-occupied" : "badge-free")">
+                    @(table.IsOccupied ? "Occupied" : "Free")
+                </span>
+            </button>
+        </form>
+    }
+</div>
