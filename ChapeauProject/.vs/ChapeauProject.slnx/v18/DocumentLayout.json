@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{567E2639-AC86-46AE-B084-8EEB6CC07920}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{567E2639-AC86-46AE-B084-8EEB6CC07920}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,15 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Program.cs",
-              "RelativeDocumentMoniker": "ChapeauProject\\Program.cs",
-              "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Program.cs",
-              "RelativeToolTip": "ChapeauProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T11:23:15.047Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ChapeauProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ChapeauProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T13:01:35.636Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChapeauProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ChapeauProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T13:01:34.811Z"
             }
           ]
         }
