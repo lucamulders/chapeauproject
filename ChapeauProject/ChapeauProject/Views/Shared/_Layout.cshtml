@@ -88,7 +88,14 @@
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
-                    <a class="btn chapeau-login-btn" href="/Account/Login">Login</a>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a class="btn btn-dark text-decoration-none" href="/Account/Logoff">Logoff</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-dark text-decoration-none" href="/Account/Login">Login</a>
+                    }
                 </div>
             </div>
         </nav>
