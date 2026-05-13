@@ -3,5 +3,17 @@
     ViewData["Title"] = "Home";
 }
 
+<<<<<<< HEAD
 <h1>Welcome</h1>
 <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+=======
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" role="alert">@TempData["SuccessMessage"]</div>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+>>>>>>> da8877de603663123fd4a961e2647ac8d43a9591
