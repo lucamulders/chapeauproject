@@ -52,7 +52,8 @@ namespace ChapeauProject.Controllers
 
             await SignInStaff(staff);
             HttpContext.Session.SetObject("LoggedInStaff", staff);
-            return RedirectToAction("Index", "Staffs");
+            TempData["SuccessMessage"] = "Welcome back, " + staff.FirstName + "!";
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: /Account/Logoff

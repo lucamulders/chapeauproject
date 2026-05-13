@@ -11,18 +11,17 @@ namespace ChapeauProject.Repositories
         public StaffRepository(IConfiguration configuration)
         {
             // get (database) connection string from appsettings
-            _connectionString = configuration.GetConnectionString("WhatsUpDatabase");
+            _connectionString = configuration.GetConnectionString("ChapeauProject");
         }
 
         public Staff? GetByLoginCredentials(int staffID, string password)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
-                const string query = "SELECT StaffID, FirstName, LastName, Role, Password FROM Staff WHERE StaffID = @StaffID AND Password = @Password";
+                const string query = "SELECT StaffID, FirstName, LastName, Role, Password FROM Staff WHERE StaffID = @StaffID";
                 using (var command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@StaffID", staffID);
-                    command.Parameters.AddWithValue("@Password", password ?? string.Empty);
 
                     connection.Open();
                     using (var reader = command.ExecuteReader())
