@@ -1,4 +1,4 @@
-html {
+/*html {
   font-size: 14px;
 }
 
@@ -19,4 +19,78 @@ html {
 
 body {
   margin-bottom: 60px;
+}*/
+/* 1. THEME VARIABLES */
+/* 1. THEME VARIABLES */
+:root {
+    --espresso-dark: #2D1B18; /* Deep header/footer brown */
+    --bistro-gold: #D4AF37; /* The standing gold shade */
+    --parchment-cream: #FDFBF5; /* The creamish menu background */
+    --bistro-text: #3E2723; /* Espresso brown for text */
+}
+
+/* 2. GLOBAL RESET */
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: var(--espresso-dark) !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 3. DARK HEADER & STANDING GOLD */
+header, .navbar {
+    background-color: var(--espresso-dark) !important;
+    border-bottom: 2px solid var(--bistro-gold) !important;
+    padding: 1rem 0 !important;
+}
+
+/* 4. WELL-SEEN LOGO */
+.navbar-brand img {
+    /* Tints black logo to gold */
+    filter: brightness(0) saturate(100%) invert(84%) sepia(31%) saturate(738%) hue-rotate(1deg) brightness(91%) contrast(89%);
+    height: 55px;
+}
+
+.nav-link {
+    color: var(--bistro-gold) !important;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 1 !important; /* Force standing gold */
+}
+
+/* 5. CREAMISH WELCOME AREA WRAPPER */
+.welcome-area-wrapper {
+    background-color: var(--parchment-cream) !important;
+    min-height: 75vh;
+    padding: 80px 0;
+    color: var(--bistro-text) !important;
+    /* High-aesthetic parchment texture */
+    background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+    box-shadow: inset 0 0 100px rgba(0,0,0,0.05);
+}
+
+    .welcome-area-wrapper h1,
+    .welcome-area-wrapper p {
+        color: var(--bistro-text) !important;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+    }
+
+/* 6. LOGIN BUTTON */
+.chapeau-login-btn {
+    color: var(--bistro-gold) !important;
+    border: 1px solid var(--bistro-gold) !important;
+    font-family: 'Playfair Display', serif;
+    background: transparent !important;
+    padding: 6px 18px;
+}
+
+/* 7. DARK FOOTER */
+footer {
+    background-color: var(--espresso-dark) !important;
+    color: var(--bistro-gold) !important;
+    border-top: 1px solid var(--bistro-gold);
+    padding: 30px 0 !important;
 }
