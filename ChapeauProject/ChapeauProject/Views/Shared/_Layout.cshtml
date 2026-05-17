@@ -74,7 +74,7 @@
 </head>
 <body>
     <header>
-        <!-- Removed navbar-light and bg-white to fix the 'coffee' overlap -->
+       
         <nav class="navbar navbar-expand-sm">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
@@ -91,6 +91,9 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Tables" asp-action="Index">Tables</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Menu" asp-action="Index">Menu</a>
+                        </li>
                     </ul>
                     @if (User.Identity.IsAuthenticated)
                     {
@@ -105,7 +108,7 @@
         </nav>
     </header>
 
-    <!-- This wrapper provides the exact creamish sensation -->
+
     <div class="welcome-area-wrapper">
         <div class="container">
             <main role="main">
