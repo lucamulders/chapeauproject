@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\repositories\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\repositories\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -49,9 +52,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,7 +113,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -125,19 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ITableService.cs",
-              "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Services\\ITableService.cs",
-              "RelativeDocumentMoniker": "ChapeauProject\\Services\\ITableService.cs",
-              "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Services\\ITableService.cs",
-              "RelativeToolTip": "ChapeauProject\\Services\\ITableService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T11:15:49.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TablesController.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Controllers\\TablesController.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Controllers\\TablesController.cs",
@@ -149,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ITableRepository.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\ITableRepository.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Repositories\\ITableRepository.cs",
@@ -161,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TableRepository.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\TableRepository.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Repositories\\TableRepository.cs",
@@ -174,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ChapeauProject\\Views\\Shared\\_Layout.cshtml",
@@ -186,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TableService.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Services\\TableService.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Services\\TableService.cs",
@@ -198,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Views\\Tables\\Index.cshtml",
               "RelativeDocumentMoniker": "ChapeauProject\\Views\\Tables\\Index.cshtml",
@@ -210,7 +198,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ViewState": "AgIAAK4CAAAAAAAAAAAqwMECAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-05-13T11:02:02.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITableService.cs",
+              "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Services\\ITableService.cs",
+              "RelativeDocumentMoniker": "ChapeauProject\\Services\\ITableService.cs",
+              "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Services\\ITableService.cs",
+              "RelativeToolTip": "ChapeauProject\\Services\\ITableService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T11:15:49.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ChapeauProject\\wwwroot\\css\\site.css",
@@ -222,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Program.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Program.cs",
@@ -234,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Table.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Models\\Table.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Models\\Table.cs",
@@ -246,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TablesViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ViewModels\\TablesViewModel.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\ViewModels\\TablesViewModel.cs",
@@ -258,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Models\\LoginModel.cs",
@@ -318,18 +331,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ViewState": "AgIAAK4CAAAAAAAAAAAqwMECAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-05-13T11:02:02.983Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 15,
               "Title": "StaffRepository.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\StaffRepository.cs",
@@ -374,7 +375,8 @@
               "RelativeToolTip": "ChapeauProject\\ChapeauProject.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-13T09:11:03.798Z"
+              "WhenOpened": "2026-05-13T09:11:03.798Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
