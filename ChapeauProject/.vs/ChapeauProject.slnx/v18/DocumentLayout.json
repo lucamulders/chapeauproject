@@ -133,8 +133,7 @@
               "RelativeToolTip": "ChapeauProject\\Services\\ITableService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T11:15:49.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T11:15:49.408Z"
             },
             {
               "$type": "Document",
@@ -146,8 +145,7 @@
               "RelativeToolTip": "ChapeauProject\\Controllers\\TablesController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAkwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T11:14:58.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T11:14:58.876Z"
             },
             {
               "$type": "Document",
@@ -159,8 +157,7 @@
               "RelativeToolTip": "ChapeauProject\\Repositories\\ITableRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T11:15:30.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T11:15:30.364Z"
             },
             {
               "$type": "Document",
@@ -170,7 +167,7 @@
               "RelativeDocumentMoniker": "ChapeauProject\\Repositories\\TableRepository.cs",
               "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\TableRepository.cs",
               "RelativeToolTip": "ChapeauProject\\Repositories\\TableRepository.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAYwEoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwEcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T11:15:37.594Z",
               "EditorCaption": ""
@@ -185,8 +182,7 @@
               "RelativeToolTip": "ChapeauProject\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAADcAAAAAAAAAAAAYwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-07T13:01:35.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T13:01:35.636Z"
             },
             {
               "$type": "Document",
@@ -198,8 +194,7 @@
               "RelativeToolTip": "ChapeauProject\\Services\\TableService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T11:15:53.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T11:15:53.007Z"
             },
             {
               "$type": "Document",
@@ -211,8 +206,7 @@
               "RelativeToolTip": "ChapeauProject\\Views\\Tables\\Index.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T11:37:25.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T11:37:25.921Z"
             },
             {
               "$type": "Document",
@@ -224,8 +218,7 @@
               "RelativeToolTip": "ChapeauProject\\wwwroot\\css\\site.css",
               "ViewState": "AgIAALQAAAAAAAAAAAAAAMMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-13T11:45:11.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T11:45:11.957Z"
             },
             {
               "$type": "Document",
@@ -237,8 +230,7 @@
               "RelativeToolTip": "ChapeauProject\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T08:22:12.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T08:22:12.753Z"
             },
             {
               "$type": "Document",
@@ -250,8 +242,7 @@
               "RelativeToolTip": "ChapeauProject\\Models\\Table.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T11:15:19.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T11:15:19.063Z"
             },
             {
               "$type": "Document",
@@ -263,8 +254,7 @@
               "RelativeToolTip": "ChapeauProject\\ViewModels\\TablesViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T11:15:59.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T11:15:59.581Z"
             },
             {
               "$type": "Document",
@@ -276,8 +266,7 @@
               "RelativeToolTip": "ChapeauProject\\Models\\LoginModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T07:39:35.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T07:39:35.469Z"
             },
             {
               "$type": "Document",
@@ -289,8 +278,7 @@
               "RelativeToolTip": "ChapeauProject\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-07T13:01:34.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T13:01:34.811Z"
             },
             {
               "$type": "Document",
@@ -302,8 +290,7 @@
               "RelativeToolTip": "ChapeauProject\\Services\\StaffService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T08:29:07.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T08:29:07.068Z"
             },
             {
               "$type": "Document",
@@ -315,8 +302,7 @@
               "RelativeToolTip": "ChapeauProject\\Repositories\\IStaffRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T08:36:20.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T08:36:20.21Z"
             },
             {
               "$type": "Document",
@@ -328,8 +314,7 @@
               "RelativeToolTip": "ChapeauProject\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T09:11:49.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T09:11:49.618Z"
             },
             {
               "$type": "Document",
@@ -341,8 +326,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "ViewState": "AgIAAK4CAAAAAAAAAAAqwMECAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-05-13T11:02:02.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T11:02:02.983Z"
             },
             {
               "$type": "Document",
@@ -354,8 +338,7 @@
               "RelativeToolTip": "ChapeauProject\\Repositories\\StaffRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAcwCIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T08:36:38.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T08:36:38.022Z"
             },
             {
               "$type": "Document",
@@ -367,8 +350,7 @@
               "RelativeToolTip": "ChapeauProject\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-13T08:22:51.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T08:22:51.147Z"
             },
             {
               "$type": "Document",
@@ -380,21 +362,19 @@
               "RelativeToolTip": "ChapeauProject\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T07:38:47.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T07:38:47.508Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "ChapeauProject",
+              "Title": "ChapeauProject.csproj",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
               "RelativeDocumentMoniker": "ChapeauProject\\ChapeauProject.csproj",
               "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
               "RelativeToolTip": "ChapeauProject\\ChapeauProject.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-13T09:11:03.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T09:11:03.798Z"
             },
             {
               "$type": "Document",
@@ -406,8 +386,7 @@
               "RelativeToolTip": "ChapeauProject\\ViewModels\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T09:34:29.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T09:34:29.35Z"
             },
             {
               "$type": "Document",
@@ -419,8 +398,7 @@
               "RelativeToolTip": "ChapeauProject\\Models\\Staff.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T08:18:06.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T08:18:06.6Z"
             },
             {
               "$type": "Document",
