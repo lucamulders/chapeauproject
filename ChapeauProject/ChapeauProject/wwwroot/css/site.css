@@ -1,35 +1,12 @@
-/*html {
-  font-size: 14px;
-}
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
-}*/
-/* 1. THEME VARIABLES */
-/* 1. THEME VARIABLES */
 :root {
-    --espresso-dark: #2D1B18; /* Deep header/footer brown */
-    --bistro-gold: #D4AF37; /* The standing gold shade */
-    --parchment-cream: #FDFBF5; /* The creamish menu background */
-    --bistro-text: #3E2723; /* Espresso brown for text */
+    --espresso-dark: #2D1B18; 
+    --bistro-gold: #D4AF37; 
+    --parchment-cream: #FDFBF5; 
+    --bistro-text: #3E2723; 
 }
 
-/* 2. GLOBAL RESET */
+
 html, body {
     height: 100%;
     margin: 0;
@@ -37,14 +14,14 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* 3. DARK HEADER & STANDING GOLD */
+
 header, .navbar {
     background-color: var(--espresso-dark) !important;
     border-bottom: 2px solid var(--bistro-gold) !important;
     padding: 1rem 0 !important;
 }
 
-/* 4. WELL-SEEN LOGO */
+/*  WELL-SEEN LOGO */
 .navbar-brand img {
     /* Tints black logo to gold */
     filter: brightness(0) saturate(100%) invert(84%) sepia(31%) saturate(738%) hue-rotate(1deg) brightness(91%) contrast(89%);
@@ -57,10 +34,10 @@ header, .navbar {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    opacity: 1 !important; /* Force standing gold */
+    opacity: 1 !important; 
 }
 
-/* 5. CREAMISH WELCOME AREA WRAPPER */
+
 .welcome-area-wrapper {
     background-color: var(--parchment-cream) !important;
     min-height: 75vh;
