@@ -1,5 +1,6 @@
 ﻿using ChapeauProject.Models;
 using ChapeauProject.Services;
+using ChapeauProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ChapeauProject.Controllers
@@ -15,8 +16,13 @@ namespace ChapeauProject.Controllers
 
         public IActionResult Index()
         {
-            List<Table> tables = _tableService.GetAll();
-            return View(tables);
+            var tables = _tableService.GetAll();
+            var viewModel = tables.Select(t => new TablesViewModel
+            {
+                Table = t,
+                OrderCount = _tableService.GetOrderCount(t.TableNumber)
+            }).ToList();
+            return View(viewModel);
         }
 
         [HttpPost]
@@ -24,6 +30,12 @@ namespace ChapeauProject.Controllers
         {
             _tableService.ToggleOccupied(tableNumber);
             return RedirectToAction("Index");
+        }
+
+        public IActionResult Details(int id)
+        {
+            var viewModel = _tableService.GetTableOrders(id);
+            return View(viewModel);
         }
     }
 }
