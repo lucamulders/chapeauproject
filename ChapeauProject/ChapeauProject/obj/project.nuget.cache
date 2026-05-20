@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0LzQcX9d3OE=",
+=======
+  "dgSpecHash": "6Jjbe/iQi6M=",
+>>>>>>> b1e23966efc94a700dcd1871790183e679443d4b
   "success": true,
   "projectFilePath": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
   "expectedPackageFiles": [

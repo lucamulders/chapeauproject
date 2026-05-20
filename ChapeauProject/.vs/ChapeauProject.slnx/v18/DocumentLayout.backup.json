@@ -1,6 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\",
+<<<<<<< HEAD
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\viewmodels\\tablesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,6 +36,9 @@
       "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\views\\tables\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
+=======
+  "Documents": [],
+>>>>>>> b1e23966efc94a700dcd1871790183e679443d4b
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -42,6 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -147,6 +152,17 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T10:42:03.629Z",
               "EditorCaption": ""
+=======
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+>>>>>>> b1e23966efc94a700dcd1871790183e679443d4b
             }
           ]
         }
