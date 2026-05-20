@@ -1,9 +1,9 @@
-﻿@model IEnumerable<ChapeauProject.Models.Table>
+﻿@model IEnumerable<ChapeauProject.ViewModels.TablesViewModel>
 
 @{
     ViewData["Title"] = "Tables";
-    int free = Model.Count(t => !t.IsOccupied);
-    int occupied = Model.Count(t => t.IsOccupied);
+    int free = Model.Count(t => !t.Table.IsOccupied);
+    int occupied = Model.Count(t => t.Table.IsOccupied);
 }
 
 <div style="display:flex; gap:12px; margin-bottom:1.5rem;">
@@ -13,20 +13,27 @@
 </div>
 
 <div class="tables-grid">
-    @foreach (var table in Model.OrderBy(t => t.TableNumber))
+    @foreach (var item in Model.OrderBy(t => t.Table.TableNumber))
     {
-        <form asp-action="ToggleOccupied" asp-controller="Tables" method="post">
-            <input type="hidden" name="tableNumber" value="@table.TableNumber" />
-            <button type="submit" class="table-card" style="border:none; cursor:pointer; width:100%; background:none;">
-                <div class="table-shape @(table.Seats <= 2 ? "round" : table.Seats <= 4 ? "rect" : "large") @(table.IsOccupied ? "occupied" : "free")">
-                    <i class="ti ti-armchair"></i>
-                </div>
-                <div class="table-num">Table @table.TableNumber</div>
-                <div class="table-seats">@table.Seats seats</div>
-                <span class="status-badge @(table.IsOccupied ? "badge-occupied" : "badge-free")">
-                    @(table.IsOccupied ? "Occupied" : "Free")
+        <div class="table-card">
+            <form asp-action="ToggleOccupied" asp-controller="Tables" method="post" style="width:100%; display:flex; flex-direction:column; align-items:center; gap:8px;">
+                <input type="hidden" name="tableNumber" value="@item.Table.TableNumber" />
+                <button type="submit" class="table-toggle-btn">
+                    <div class="table-shape @(item.Table.Seats <= 2 ? "round" : item.Table.Seats <= 4 ? "rect" : "large") @(item.Table.IsOccupied ? "occupied" : "free")">
+                        <i class="ti ti-armchair"></i>
+                    </div>
+                </button>
+                <div class="table-num">Table @item.Table.TableNumber</div>
+                <div class="table-seats">@item.Table.Seats seats</div>
+                <span class="status-badge @(item.Table.IsOccupied ? "badge-occupied" : "badge-free")">
+                    @(item.Table.IsOccupied ? "Occupied" : "Free")
                 </span>
-            </button>
-        </form>
+                <span class="table-seats">@item.OrderCount orders</span>
+            </form>
+            <a asp-action="Details" asp-controller="Tables"
+                   asp-route-id="@item.Table.TableNumber" class="view-orders-btn">
+                View Orders
+            </a>
+        </div>
     }
 </div>

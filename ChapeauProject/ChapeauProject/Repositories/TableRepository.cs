@@ -1,4 +1,5 @@
 ﻿using ChapeauProject.Models;
+using ChapeauProject.ViewModels;
 using Microsoft.Data.SqlClient;
 
 namespace ChapeauProject.Repositories
@@ -69,6 +70,97 @@ namespace ChapeauProject.Repositories
                     command.Parameters.AddWithValue("@TableNumber", tableNumber);
                     connection.Open();
                     command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        // table orders or smth
+        public TableOrderViewModel GetTableOrders(int tableNumber)
+        {
+            var guests = new List<GuestOrderViewModel>();
+
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+
+                // get all guests at this table
+                string guestQuery = "SELECT GuestID, FirstName, LastName FROM Guests WHERE TableNumber = @TableNumber";
+                using (SqlCommand cmd = new SqlCommand(guestQuery, connection))
+                {
+                    cmd.Parameters.AddWithValue("@TableNumber", tableNumber);
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            guests.Add(new GuestOrderViewModel
+                            {
+                                GuestName = reader.GetString(reader.GetOrdinal("FirstName")) + " " + reader.GetString(reader.GetOrdinal("LastName")),
+                                GuestID = reader.GetInt32(reader.GetOrdinal("GuestID")),
+                                Items = new List<OrderItemViewModel>()
+                            });
+                        }
+                    }
+                }
+
+                // for each guest get their order items
+                foreach (var guest in guests)
+                {
+                    string itemQuery = @"
+                SELECT mi.ItemName, mi.Price, mi.VatRate, SUM(oi.Quantity) as Quantity
+                FROM Orders o
+                JOIN OrderItems oi ON o.OrderID = oi.OrderID
+                JOIN MenuItems mi ON oi.MenuItemID = mi.MenuItemID
+                WHERE o.GuestID = @GuestID
+                GROUP BY mi.ItemName, mi.Price, mi.VatRate";
+
+                    using (SqlCommand cmd = new SqlCommand(itemQuery, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@GuestID", guest.GuestID);
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                guest.Items.Add(new OrderItemViewModel
+                                {
+                                    ItemName = reader.GetString(reader.GetOrdinal("ItemName")),
+                                    Quantity = reader.GetInt32(reader.GetOrdinal("Quantity")),
+                                    Price = reader.GetDecimal(reader.GetOrdinal("Price")),
+                                    VatRate = reader.GetDecimal(reader.GetOrdinal("VatRate"))
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+
+            var allItems = guests.SelectMany(g => g.Items).ToList();
+            decimal subtotal = allItems.Sum(i => i.Price * i.Quantity);
+            decimal lowVat = allItems.Where(i => i.VatRate == 0.09m).Sum(i => i.Price * i.Quantity * i.VatRate);
+            decimal highVat = allItems.Where(i => i.VatRate == 0.21m).Sum(i => i.Price * i.Quantity * i.VatRate);
+
+            return new TableOrderViewModel
+            {
+                TableNumber = tableNumber,
+                Guests = guests,
+                TotalAmount = subtotal + lowVat + highVat,
+                LowVAT = lowVat,
+                HighVAT = highVat
+            };
+        }
+
+        public int GetOrderCount(int tableNumber)
+        {
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                string query = @"SELECT COUNT(*) FROM OrderItems oi
+                        JOIN Orders o ON oi.OrderID = o.OrderID
+                        JOIN Guests g ON o.GuestID = g.GuestID
+                        WHERE g.TableNumber = @TableNumber";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@TableNumber", tableNumber);
+                    connection.Open();
+                    return (int)command.ExecuteScalar();
                 }
             }
         }

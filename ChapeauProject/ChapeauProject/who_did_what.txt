@@ -1,1 +1,2 @@
-Luca Mulders: Login model, Seating status
+Luca Mulders: Login model, Seating status, Table Orders/Guest's orders
+Christabel Boateng: View menu items
