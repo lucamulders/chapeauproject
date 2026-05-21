@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChapeauProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f18932cb5c243a92900940f844dd3d010807748")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b296dfd336f8040fdcb5bfb6a34b9a0495b0af9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChapeauProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChapeauProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

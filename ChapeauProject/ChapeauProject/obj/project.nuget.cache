@@ -1,7 +1,11 @@
 {
   "version": 2,
 <<<<<<< HEAD
+  "dgSpecHash": "6YOks+2IdvY=",
+=======
+<<<<<<< HEAD
   "dgSpecHash": "6Jjbe/iQi6M=",
+>>>>>>> 8f18932cb5c243a92900940f844dd3d010807748
   "success": true,
   "projectFilePath": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
   "expectedPackageFiles": [
@@ -282,5 +286,15 @@
     "C:\\Users\\sophi\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
 >>>>>>> 638fcb24a18a27a0982563c8807eb01e7c5ae39f
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file C:\\Users\\chris\\Documents\\Project 1.4\\ChapeauProject\\ChapeauProject\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\chris\\Documents\\Project 1.4\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\chris\\Documents\\Project 1.4\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
