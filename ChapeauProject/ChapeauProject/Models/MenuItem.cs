@@ -20,3 +20,5 @@
         }
     }
 }
+//changr to menu 
+//enum for categpry 
