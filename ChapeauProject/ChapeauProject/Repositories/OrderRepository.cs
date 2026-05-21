@@ -12,7 +12,7 @@ namespace ChapeauProject.Repositories
             _connectionString = configuration.GetConnectionString("ChapeauProject");
         }
 
-        public List<RunningOrderViewModel> GetRunningOrders() //getallorderbystatus
+        public List<RunningOrderViewModel> GetRunningOrders() //NOTE getallorderbystatus and make it enum instead of bit
         {
             var orders = new Dictionary<int, RunningOrderViewModel>();
 
@@ -63,7 +63,7 @@ namespace ChapeauProject.Repositories
             return orders.Values.ToList();
         }
 
-        public void ToggleItemPreparation(int orderItemId) //make enum
+        public void ToggleItemPreparation(int orderItemId) //NOTE make enum
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {

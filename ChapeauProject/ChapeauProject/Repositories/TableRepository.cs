@@ -13,7 +13,7 @@ namespace ChapeauProject.Repositories
             _connectionString = configuration.GetConnectionString("ChapeauProject");
         }
 
-        public List<Table> GetAll() //getalltables
+        public List<Table> GetAll() //NOTE getalltables
         {
             var tables = new List<Table>();
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -74,7 +74,7 @@ namespace ChapeauProject.Repositories
             }
         }
 
-        // table orders or smth
+        //NOTE table orders or smth
         public TableOrderViewModel GetTableOrders(int tableNumber)
         {
             var guests = new List<GuestOrderViewModel>();
@@ -138,7 +138,7 @@ namespace ChapeauProject.Repositories
             decimal lowVat = allItems.Where(i => i.VatRate == 0.09m).Sum(i => i.Price * i.Quantity * i.VatRate);
             decimal highVat = allItems.Where(i => i.VatRate == 0.21m).Sum(i => i.Price * i.Quantity * i.VatRate);
 
-            return new TableOrderViewModel //make model NO VIEWMODELS IN REPO PLEASE!!!!!!!!!!!!!!!!!!!!!!!!
+            return new TableOrderViewModel //NOTE make model NO VIEWMODELS IN REPO PLEASE!!!!!!!!!!!!!!!!!!!!!!!!
             {
                 TableNumber = tableNumber,
                 Guests = guests,
@@ -148,7 +148,7 @@ namespace ChapeauProject.Repositories
             };
         }
 
-        public int GetOrderCount(int tableNumber) //use orderitems.count
+        public int GetOrderCount(int tableNumber) //NOTE use orderitems.count
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
