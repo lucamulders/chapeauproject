@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\",
+  "WorkspaceRootPath": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,30 +30,47 @@
     {
       "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+=======
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\sophi\\source\\repos\\chapeauproject\\chapeauproject\\chapeauproject\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\sophi\\source\\repos\\chapeauproject\\chapeauproject\\chapeauproject\\repositories\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\repositories\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 0eabc3bfca037bcdb846e5e58421db35b305a7c9
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\sophi\\source\\repos\\chapeauproject\\chapeauproject\\chapeauproject\\viewmodels\\tableorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\viewmodels\\tableorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\sophi\\source\\repos\\chapeauproject\\chapeauproject\\chapeauproject\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\sophi\\source\\repos\\chapeauproject\\chapeauproject\\chapeauproject\\repositories\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\repositories\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\sophi\\source\\repos\\chapeauproject\\chapeauproject\\chapeauproject\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 0eabc3bfca037bcdb846e5e58421db35b305a7c9
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\sophi\\source\\repos\\chapeauproject\\chapeauproject\\chapeauproject\\models\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\models\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\sophi\\source\\repos\\chapeauproject\\chapeauproject\\chapeauproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+>>>>>>> 638fcb24a18a27a0982563c8807eb01e7c5ae39f
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,11 +80,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+<<<<<<< HEAD
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+=======
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "ChapeauProject\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "ChapeauProject\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwEEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T11:47:06.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+>>>>>>> 638fcb24a18a27a0982563c8807eb01e7c5ae39f
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 0,
+=======
+              "DocumentIndex": 2,
+              "Title": "TableOrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ViewModels\\TableOrderViewModel.cs",
+              "RelativeDocumentMoniker": "ChapeauProject\\ViewModels\\TableOrderViewModel.cs",
+              "ToolTip": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ViewModels\\TableOrderViewModel.cs",
+              "RelativeToolTip": "ChapeauProject\\ViewModels\\TableOrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T11:46:56.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "who_did_what.txt",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\who_did_what.txt",
               "RelativeDocumentMoniker": "ChapeauProject\\who_did_what.txt",
@@ -127,10 +193,21 @@
               "ViewState": "AgIAAAIAAAAAAAAAAAAowDAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-20T23:23:15.014Z",
+=======
+              "Title": "TableRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\TableRepository.cs",
+              "RelativeDocumentMoniker": "ChapeauProject\\Repositories\\TableRepository.cs",
+              "ToolTip": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\TableRepository.cs",
+              "RelativeToolTip": "ChapeauProject\\Repositories\\TableRepository.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAswJYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T11:42:11.455Z",
+>>>>>>> 0eabc3bfca037bcdb846e5e58421db35b305a7c9
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 6,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Controllers\\OrdersController.cs",
@@ -153,10 +230,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T23:22:30.691Z",
+=======
+              "DocumentIndex": 3,
+              "Title": "MenuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\MenuRepository.cs",
+              "RelativeDocumentMoniker": "ChapeauProject\\Repositories\\MenuRepository.cs",
+              "ToolTip": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\MenuRepository.cs",
+              "RelativeToolTip": "ChapeauProject\\Repositories\\MenuRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwEIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T11:34:26.65Z",
+>>>>>>> 0eabc3bfca037bcdb846e5e58421db35b305a7c9
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 7,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Services\\IOrderService.cs",
@@ -164,12 +253,22 @@
               "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Services\\IOrderService.cs",
               "RelativeToolTip": "ChapeauProject\\Services\\IOrderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+=======
+              "DocumentIndex": 4,
+              "Title": "IMenuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\IMenuRepository.cs",
+              "RelativeDocumentMoniker": "ChapeauProject\\Repositories\\IMenuRepository.cs",
+              "ToolTip": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\IMenuRepository.cs",
+              "RelativeToolTip": "ChapeauProject\\Repositories\\IMenuRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+>>>>>>> 0eabc3bfca037bcdb846e5e58421db35b305a7c9
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T23:22:20.378Z",
+              "WhenOpened": "2026-05-21T11:34:24.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\OrderRepository.cs",
@@ -177,12 +276,35 @@
               "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\OrderRepository.cs",
               "RelativeToolTip": "ChapeauProject\\Repositories\\OrderRepository.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAawFEAAAAyAAAAAAAAAA==",
+=======
+              "DocumentIndex": 5,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "ChapeauProject\\Models\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Models\\MenuItem.cs",
+              "RelativeToolTip": "ChapeauProject\\Models\\MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+>>>>>>> 0eabc3bfca037bcdb846e5e58421db35b305a7c9
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T23:21:38.17Z",
+              "WhenOpened": "2026-05-21T11:27:09.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Table.cs",
+              "DocumentMoniker": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Models\\Table.cs",
+              "RelativeDocumentMoniker": "ChapeauProject\\Models\\Table.cs",
+              "ToolTip": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Models\\Table.cs",
+              "RelativeToolTip": "ChapeauProject\\Models\\Table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T11:26:39.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 9,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\IOrderRepository.cs",
@@ -231,6 +353,22 @@
               "ViewState": "AgIAADsAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T19:19:43.453Z",
+=======
+              "DocumentIndex": 7,
+>>>>>>> 638fcb24a18a27a0982563c8807eb01e7c5ae39f
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ChapeauProject\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\sophi\\source\\repos\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ChapeauProject\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswBoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+<<<<<<< HEAD
+              "WhenOpened": "2026-05-18T11:45:16.947Z",
+=======
+              "WhenOpened": "2026-05-21T11:17:47.948Z",
+>>>>>>> 638fcb24a18a27a0982563c8807eb01e7c5ae39f
+>>>>>>> 0eabc3bfca037bcdb846e5e58421db35b305a7c9
               "EditorCaption": ""
             }
           ]

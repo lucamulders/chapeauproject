@@ -6407,11 +6407,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
       "projectName": "ChapeauProject",
       "projectPath": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
       "packagesPath": "C:\\Users\\lucam\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\chris\\Documents\\New folder\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
+      "projectName": "ChapeauProject",
+      "projectPath": "C:\\Users\\chris\\Documents\\New folder\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
+      "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chris\\Documents\\New folder\\ChapeauProject\\ChapeauProject\\obj\\",
+>>>>>>> 0eabc3bfca037bcdb846e5e58421db35b305a7c9
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6444,7 +6452,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
+<<<<<<< HEAD
       "SdkAnalysisLevel": "10.0.200"
+=======
+      "SdkAnalysisLevel": "9.0.300"
+>>>>>>> 0eabc3bfca037bcdb846e5e58421db35b305a7c9
     },
     "frameworks": {
       "net8.0": {
@@ -6482,7 +6494,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 0eabc3bfca037bcdb846e5e58421db35b305a7c9
       }
     }
   }

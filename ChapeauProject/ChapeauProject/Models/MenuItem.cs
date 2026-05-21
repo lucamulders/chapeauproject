@@ -6,8 +6,8 @@
         public string ItemName { get; set; }
         public decimal Price { get; set; }
         public int StockQuantity { get; set; } 
-        public string CourseName { get; set; }  
-        public string MenuCard { get; set; }    
+        public string CourseName { get; set; }  //NOTE make enum
+        public string MenuCard { get; set; }    //NOTE change to menuID
 
         public MenuItem(int id, string name, decimal price, int stock, string course, string card)
         {
@@ -20,5 +20,5 @@
         }
     }
 }
-//changr to menu 
-//enum for categpry 
+//NOTE change to menu 
+//NOTE enum for category 

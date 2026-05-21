@@ -15,7 +15,7 @@ namespace ChapeauProject.Repositories
             _connectionString = configuration.GetConnectionString("ChapeauProject");
         }
 
-        public List<MenuItem> GetFiltered(string cardFilter, string courseFilter)
+        public List<MenuItem> GetFiltered(string cardFilter, string courseFilter) //NOTE improve name of getfiltered
         {
             List<MenuItem> items = new List<MenuItem>();
 

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0LzQcX9d3OE=",
   "success": true,
   "projectFilePath": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
+=======
+  "dgSpecHash": "WYAE4g6NHUo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\chris\\Documents\\New folder\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
+>>>>>>> 0eabc3bfca037bcdb846e5e58421db35b305a7c9
   "expectedPackageFiles": [
     "C:\\Users\\lucam\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\lucam\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
