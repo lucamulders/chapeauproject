@@ -1,4 +1,5 @@
 ﻿using ChapeauProject.Models;
+using ChapeauProject.ViewModels;
 
 namespace ChapeauProject.Services
 {
@@ -7,5 +8,7 @@ namespace ChapeauProject.Services
         List<Table> GetAll();
         Table? GetByTableNumber(int tableNumber);
         void ToggleOccupied(int tableNumber);
+        TableOrderViewModel GetTableOrders(int tableNumber);
+        int GetOrderCount(int tableNumber);
     }
 }

@@ -1,5 +1,6 @@
 ﻿using ChapeauProject.Models;
 using ChapeauProject.Repositories;
+using ChapeauProject.ViewModels;
 
 namespace ChapeauProject.Services
 {
@@ -25,6 +26,16 @@ namespace ChapeauProject.Services
         public void ToggleOccupied(int tableNumber)
         {
             _tableRepository.ToggleOccupied(tableNumber);
+        }
+
+        public TableOrderViewModel GetTableOrders(int tableNumber)
+        {
+            return _tableRepository.GetTableOrders(tableNumber);
+        }
+
+        public int GetOrderCount(int tableNumber)
+        {
+            return _tableRepository.GetOrderCount(tableNumber);
         }
     }
 }

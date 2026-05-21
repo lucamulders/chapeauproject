@@ -11,9 +11,10 @@ builder.Services.AddSingleton<IStaffRepository, StaffRepository>();
 builder.Services.AddSingleton<IStaffService, StaffService>();
 builder.Services.AddSingleton<ITableRepository, TableRepository>();
 builder.Services.AddSingleton<ITableService, TableService>();
-// Menu Repository and Service
 builder.Services.AddScoped<IMenuRepository, MenuRepository>();
 builder.Services.AddScoped<IMenuService, MenuService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 // enabling cookie-based authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
