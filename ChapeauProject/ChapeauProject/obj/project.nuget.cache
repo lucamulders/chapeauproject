@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "0LzQcX9d3OE=",
+=======
   "dgSpecHash": "6YOks+2IdvY=",
+>>>>>>> 915251e3d8c58a86b6244171d772487653fdb6f9
   "success": true,
   "projectFilePath": "C:\\Users\\chris\\Documents\\Project 1.4\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
   "expectedPackageFiles": [
