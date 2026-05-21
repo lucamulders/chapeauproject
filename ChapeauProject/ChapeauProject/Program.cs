@@ -5,15 +5,14 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services 
-builder.Services.AddControllersWithViews();
+//builder.Services.AddControllersWithViews();
 
-builder.Services.AddSingleton<IStaffRepository, StaffRepository>();
-builder.Services.AddSingleton<IStaffService, StaffService>();
-builder.Services.AddSingleton<ITableRepository, TableRepository>();
-builder.Services.AddSingleton<ITableService, TableService>();
-// Menu Repository and Service
-builder.Services.AddScoped<IMenuRepository, MenuRepository>();
-builder.Services.AddScoped<IMenuService, MenuService>();
+//builder.Services.AddSingleton<IStaffService, StaffService>();
+//builder.Services.AddSingleton<ITableRepository, TableRepository>();
+//builder.Services.AddSingleton<ITableService, TableService>();
+//// Menu Repository and Service
+//builder.Services.AddScoped<IMenuRepository, MenuRepository>();
+//builder.Services.AddScoped<IMenuService, MenuService>();
 
 // enabling cookie-based authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
