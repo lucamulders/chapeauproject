@@ -265,7 +265,3 @@ C:\Users\lucam\Documents\GitHub\ChapeauProject\ChapeauProject\ChapeauProject\obj
 C:\Users\lucam\Documents\GitHub\ChapeauProject\ChapeauProject\ChapeauProject\obj\Debug\net8.0\ChapeauProject.genruntimeconfig.cache
 C:\Users\lucam\Documents\GitHub\ChapeauProject\ChapeauProject\ChapeauProject\obj\Debug\net8.0\ref\ChapeauProject.dll
 C:\Users\lucam\Documents\GitHub\ChapeauProject\ChapeauProject\ChapeauProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\chris\Documents\Project 1.4\ChapeauProject\ChapeauProject\obj\Debug\net8.0\ChapeauProject.csproj.AssemblyReference.cache
-C:\Users\chris\Documents\Project 1.4\ChapeauProject\ChapeauProject\obj\Debug\net8.0\ChapeauProject.dll
-C:\Users\chris\Documents\Project 1.4\ChapeauProject\ChapeauProject\obj\Debug\net8.0\refint\ChapeauProject.dll
-C:\Users\chris\Documents\Project 1.4\ChapeauProject\ChapeauProject\obj\Debug\net8.0\ChapeauProject.pdb

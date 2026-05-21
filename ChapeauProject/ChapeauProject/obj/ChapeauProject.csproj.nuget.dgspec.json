@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\Documents\\Project 1.4\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj": {}
+    "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\Documents\\Project 1.4\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj": {
+    "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\Documents\\Project 1.4\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
+        "projectUniqueName": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
         "projectName": "ChapeauProject",
-        "projectPath": "C:\\Users\\chris\\Documents\\Project 1.4\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
-        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\Documents\\Project 1.4\\ChapeauProject\\ChapeauProject\\obj\\",
+        "projectPath": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ChapeauProject.csproj",
+        "packagesPath": "C:\\Users\\lucam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -44,14 +45,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-<<<<<<< HEAD
         "SdkAnalysisLevel": "10.0.200"
-=======
-        "SdkAnalysisLevel": "9.0.300"
->>>>>>> 915251e3d8c58a86b6244171d772487653fdb6f9
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "BCrypt.Net-Next": {
@@ -86,11 +84,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
->>>>>>> 915251e3d8c58a86b6244171d772487653fdb6f9
         }
       }
     }

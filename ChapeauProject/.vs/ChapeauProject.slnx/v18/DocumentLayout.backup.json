@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\who_did_what.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\who_did_what.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\viewmodels\\runningorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\viewmodels\\runningorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\viewmodels\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\viewmodels\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|solutionrelative:chapeauproject\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75B28FEC-4330-5B7A-D92F-BF18AE15835A}|ChapeauProject\\ChapeauProject.csproj|c:\\users\\lucam\\documents\\github\\chapeauproject\\chapeauproject\\chapeauproject\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,6 +67,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "who_did_what.txt",
+              "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\who_did_what.txt",
+              "RelativeDocumentMoniker": "ChapeauProject\\who_did_what.txt",
+              "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\who_did_what.txt",
+              "RelativeToolTip": "ChapeauProject\\who_did_what.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-21T00:01:06.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ChapeauProject\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ChapeauProject\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABgBAAAAAAAAAAAcwDIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-20T23:57:39.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "OrderItemViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ViewModels\\OrderItemViewModel.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\ViewModels\\OrderItemViewModel.cs",
@@ -71,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Program.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Program.cs",
@@ -84,20 +118,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "ChapeauProject\\Views\\Orders\\Index.cshtml",
               "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Views\\Orders\\Index.cshtml",
               "RelativeToolTip": "ChapeauProject\\Views\\Orders\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowC4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowDAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-20T23:23:15.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Controllers\\OrdersController.cs",
@@ -110,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Services\\OrderService.cs",
@@ -123,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Services\\IOrderService.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Services\\IOrderService.cs",
@@ -136,20 +170,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Repositories\\OrderRepository.cs",
               "ToolTip": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\OrderRepository.cs",
               "RelativeToolTip": "ChapeauProject\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAawFEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T23:21:38.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Repositories\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Repositories\\IOrderRepository.cs",
@@ -162,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "RunningOrderViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\ViewModels\\RunningOrderViewModel.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\ViewModels\\RunningOrderViewModel.cs",
@@ -175,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ChapeauProject\\Views\\Shared\\_Layout.cshtml",
@@ -188,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\lucam\\Documents\\GitHub\\ChapeauProject\\ChapeauProject\\ChapeauProject\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ChapeauProject\\Controllers\\AccountController.cs",
